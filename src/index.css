@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#root {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-Section {
+  width: 80%;
+  margin-inline: auto;
+}
+
+h1 {
+  color: #0d64c4;
+  margin: 30px 50px 80px 50px;
+  font-size: 25px;
+}
+
+h1 span {
+  background-color: #0d64c4;
+  color: #fff;
+  padding-inline: 2px;
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
+form {
+  width: 350px;
+  margin: 40px auto;
+  padding-block: 30px;
+  text-align: center;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form h2,
+form p {
+  width: 90%;
+  text-align: left;
+  margin-inline: auto;
+  margin-top: 5px;
+}
+
+form p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #000;
+}
+
+.password-con {
+  position: relative;
+}
+
+input:focus {
+  border: 2px solid #0857aa;
+  outline: none;
+}
+
+.password-con span {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  translate: -30px;
+  font-size: 15px;
+  color: #0562c5;
+}
+.password-con span:hover {
+  background-color: #96c2f1;
+  padding-inline: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+h5 {
+  text-align: left;
+  margin-left: 5%;
+  color: #1d75c0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+h5:hover {
+  background-color: #96c2f1;
+  width: fit-content;
+  padding-inline: 5px;
+  border-radius: 100px;
+}
+
+.sign-in-btn {
+  width: 90%;
+  background-color: #0d64c4;
+  border: none;
+  border-radius: 100px;
+  padding-block: 15px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.sign-in-btn:hover {
+  background-color: #2a77ca;
+  transition: ease 0.5s all;
+}
+
+.lines-con {
+  margin-top: 10px;
+}
+
+/* .left-line,
+.right-line {
+  border-bottom: 5px solid #000;
+} */
+
+.apple-signin-btn {
+  width: 90%;
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding-block: 8px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  transition: ease 0.5s all;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-inline: auto;
+}
+.apple-signin-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.apple-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+a {
+  font-weight: 700;
+  color: #0d64c4;
+}
+
+a:hover {
+  opacity: 0.8;
+}
